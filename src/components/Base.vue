@@ -1,7 +1,9 @@
 <template>
   <div>
     <el-row>
-
+      <el-col :span="12" :offset="6">
+        11
+      </el-col>
     </el-row>
   </div>
 </template>

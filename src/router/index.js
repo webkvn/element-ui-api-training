@@ -13,6 +13,15 @@ import InputNumber from '@/components/InputNumber'
 import Select from '@/components/Select'
 import Switch from '@/components/Switch'
 import Slider from '@/components/Slider'
+import Timepicker from '@/components/Timepicker'
+import Datepicker from '@/components/Datepicker'
+import Datetimepicker from '@/components/Datetimepicker'
+import Upload from '@/components/Upload'
+import Rate from '@/components/Rate'
+import Colorpicker from '@/components/Colorpicker'
+import Transfer from '@/components/Transfer'
+import Form from '@/components/Form'
+import Table from '@/components/Table'
 
 Vue.use(Router)
 
@@ -83,5 +92,50 @@ export default new Router({
       name: 'Slider',
       component: Slider
     },
+    {
+      path:'/timepicker',
+      name: 'Timepicker',
+      component: Timepicker
+    },
+    {
+      path:'/datepicker',
+      name: 'Datepicker',
+      component: Datepicker
+    },
+    {
+      path:'/datetimepicker',
+      name: 'Datetimepicker',
+      component: Datetimepicker
+    },   
+    {
+      path:'/upload',
+      name: 'Upload',
+      component: Upload
+    }, 
+    {
+      path:'/rate',
+      name: 'Rate',
+      component: Rate
+    }, 
+    {
+      path:'/colorpicker',
+      name: 'Colorpicker',
+      component: Colorpicker
+    },
+    {
+      path:'/transfer',
+      name: 'Transfer',
+      component: Transfer
+    },  
+    {
+      path:'/form',
+      name: 'Form',
+      component: Form
+    }, 
+    {
+      path:'/table',
+      name: 'Table',
+      component: Table
+    }, 
   ]
 })
